@@ -114,7 +114,6 @@
 				8ECEDBD9689F977080C91B55 /* Pods-SpinachFish-SpinachFishTests.debug.xcconfig */,
 				A7AA773B419448E152183874 /* Pods-SpinachFish-SpinachFishTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -483,8 +482,10 @@
 			baseConfigurationReference = 93A9AE6E52802082BA0988EE /* Pods-SpinachFish.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XQB9376CD;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SpinachFish/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -509,8 +510,10 @@
 			baseConfigurationReference = 0459CD3F64C6A029CE99A5F9 /* Pods-SpinachFish.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XQB9376CD;
 				INFOPLIST_FILE = SpinachFish/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
